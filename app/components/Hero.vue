@@ -1,17 +1,21 @@
 <template>
-    <div class="container mx-auto px-4">
-      <div class="bg-gradient-to-t from-blue-500 to-blue-700 py-10 sm:py-20 px-16 pl-20 flex flex-col md:flex-row items-center justify-between rounded-3xl max-w-7xl mx-auto my-4">
-        <div class="max-w-2xl text-center md:text-left mb-8 md:mb-0">
-          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">Empower Your Team. Elevate Your Business.</h1>
-          <p class="text-white text-base lg:text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
-            tempus in consequat.</p>
-          <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-3 px-6 rounded-2xl">
-            Learn More
-          </button>
-        </div>
-        <div class="flex items-center">
-          <NuxtImg alt="Team" src="/hero-photo.png" class="w-full max-w-[90rem] h-auto" />
-        </div>
+  <div
+      class=" bg-gradient-to-b from-itsblue to-gray-800 text-white py-16 pt-24 text-center mx-auto my-5 w-10/12 rounded-[2rem] flex flex-col min-h-[600px] max-w-7xl">
+      <div class="flex-1 flex flex-col justify-center items-center px-5">
+          <h1 class="title text-4xl font-bold mb-4 md:text-5xl lg:text-7xl">Revolutionize Your Design Workflow with
+              SAAS</h1>
+          <p class="subtitle text-base font-thin mb-8 md:text-lg lg:text-xl">The solution to your problems in a single
+              click to Elevate Your Business.</p>
+          <button
+              class="learn-more-btn bg-gradient-to-b from-itsyellow to-yellow-600 text-white font-semibold px-10 py-2 rounded-xl cursor-pointer w-auto">Learn
+              More</button>
       </div>
-    </div>
-  </template>
+      <div class="mt-auto w-full px-4 hidden sm:block">
+          <NuxtImg 
+              src="/assets/laptop.png" 
+              class="w-full max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl mx-auto translate-y-16" 
+              alt="Laptop preview"
+          />
+      </div>
+  </div>
+</template>

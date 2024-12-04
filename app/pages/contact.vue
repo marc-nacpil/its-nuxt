@@ -1,8 +1,6 @@
 <template>
     <div>
-        <NavigationBar />
-        <slot />
-        <WebFooter />
+        <h1>this is contact</h1>
     </div>
 </template>
 
